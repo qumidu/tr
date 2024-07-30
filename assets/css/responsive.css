@@ -10,7 +10,10 @@
   .book .card img {
     object-position: 15% 100%;
   }
-  .services .card .card-body h3 {
+  .packages .card img {
+    height: 220px;
+  }
+  .services .card .card-body a {
     font-size: 1.7rem;
   }
   .services .card .card-body p {
@@ -51,6 +54,9 @@
   }
   .book .card img {
     object-position: 10% 100%;
+  }
+  .packages .card img {
+    height: 275px;
   }
   .services .card .card-body h3 {
     font-size: 2.8rem;

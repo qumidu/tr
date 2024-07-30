@@ -279,7 +279,8 @@ a {
   background: transparent;
   padding: 16px;
 }
-.packages .card .card-body h3 {
+.packages .card .card-body h3 a {
+  color: #000;
   font-size: 2.5rem;
   font-weight: 600;
 }
@@ -299,12 +300,12 @@ a {
   font-size: 1.8rem;
   margin-bottom: 5px;
 }
-.packages .card .card-body a {
+.packages .card .card-body .btn {
   padding: 7px 15px;
   border-radius: 5px;
   font-size: 1.6rem;
 }
-.packages .card .card-body a:hover {
+.packages .card .card-body .btn:hover {
   color: #fff;
   opacity: 0.9;
 }
