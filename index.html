@@ -54,7 +54,7 @@
 
 <body>
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg" id="navbar">
+    <nav class="navbar navbar-expand-lg px-4 px-lg-0" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="./index.html" id="logo"><span>T</span>ravel</a>
             <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
@@ -103,7 +103,7 @@
     <!-- home section end -->
 
     <!-- section book start -->
-    <section class="book" id="book">
+    <section class="book px-4 px-lg-0" id="book">
         <div class="container">
             <div class="main-text">
                 <h2><span>B</span>ook</h2>
@@ -115,12 +115,13 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <form action="#">
-                        <input type="text" class="form-control" placeholder="Where to" required><br>
-                        <input type="text" class="form-control" placeholder="How many" required><br>
-                        <input type="date" class="form-control" placeholder="Arrivals" required><br>
-                        <input type="date" class="form-control" placeholder="Leaving" required><br>
-                        <textarea class="form-control" rows="5" name="text"
+                    <form class="d-flex flex-column align-items-center" action="#">
+                        <input type="text" class="form-control text-center" placeholder="Enter origin" required><br>
+                        <input type="text" class="form-control text-center" placeholder="Enter destination"
+                            required><br>
+                        <input type="date" class="form-control text-center" value="2024-08-01" required><br>
+                        <input type="text" class="form-control text-center" placeholder="Tickets" required><br>
+                        <textarea class="form-control text-center" rows="5" name="text"
                             placeholder="Enter your name and details ..."></textarea>
                         <input type="submit" value="Book Now" class="secondary-btn btn-common" required>
                     </form>
@@ -131,7 +132,7 @@
     <!-- section book start -->
 
     <!-- section packages start -->
-    <section class="packages" id="packages">
+    <section class="packages px-4 px-lg-0" id="packages">
         <div class="container">
             <div class="main-text">
                 <h2><span>P</span>ackages</h2>
@@ -265,85 +266,91 @@
     <!-- section packages end -->
 
     <!-- section services start -->
-    <section class="services" id="services">
+    <section class="services px-4 px-lg-0" id="services">
         <div class="container">
             <div class="main-text">
                 <h2><span>S</span>ervices</h2>
             </div>
             <div class="row g-5 pt-5">
                 <div class="col-md-4">
-                    <div class="card p-5">
-                        <i class="fas fa-hotel"></i>
-                        <div class="card-body p-0">
-                            <h3 class="card-title">Affordable Hotel</h3>
-                            <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
-                                elit. Incidunt, consectetur
-                                amet.</p>
+                    <a href="#book">
+                        <div class="card-hover card p-5">
+                            <i class="fas fa-hotel"></i>
+                            <div class="card-body p-0">
+                                <h3 class="card-title">Affordable Hotel</h3>
+                                <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
+                                    elit. Incidunt, consectetur
+                                    amet.</p>
+                            </div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <div class="card p-5">
-                        <i class="fas fa-utensils"></i>
-                        <div class="card-body p-0">
-                            <h3 class="card-title">Food & Drinks</h3>
-                            <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
-                                elit. Incidunt, consectetur
-                                amet.</p>
+                    <a href="#book">
+                        <div class="card-hover card p-5">
+                            <i class="fas fa-utensils"></i>
+                            <div class="card-body p-0">
+                                <h3 class="card-title">Food & Drinks</h3>
+                                <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
+                                    elit. Incidunt, consectetur
+                                    amet.</p>
+                            </div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <div class="card p-5">
-                        <i class="fas fa-bullhorn"></i>
-                        <div class="card-body p-0">
-                            <h3 class="card-title">Safety Guide</h3>
-                            <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
-                                elit. Incidunt, consectetur
-                                amet.</p>
+                    <a href="#book">
+                        <div class="card-hover card p-5">
+                            <i class="fas fa-bullhorn"></i>
+                            <div class="card-body p-0">
+                                <h3 class="card-title">Safety Guide</h3>
+                                <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
+                                    elit. Incidunt, consectetur
+                                    amet.</p>
+                            </div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="row g-5 pt-5">
                 <div class="col-md-4">
-                    <div class="card p-5">
-                        <i class="fas fa-globe-asia"></i>
-                        <div class="card-body p-0">
-                            <h3 class="card-title">Around The World</h3>
-                            <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
-                                elit. Incidunt, consectetur
-                                amet.</p>
+                    <a href="#book">
+                        <div class="card-hover card p-5">
+                            <i class="fas fa-globe-asia"></i>
+                            <div class="card-body p-0">
+                                <h3 class="card-title">Around The World</h3>
+                                <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
+                                    elit. Incidunt, consectetur
+                                    amet.</p>
+                            </div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <div class="card p-5">
-                        <i class="fas fa-plane"></i>
-                        <div class="card-body p-0">
-                            <h3 class="card-title">Fastest Travel</h3>
-                            <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
-                                elit. Incidunt, consectetur
-                                amet.</p>
+                    <a href="#book">
+                        <div class="card-hover card p-5">
+                            <i class="fas fa-plane"></i>
+                            <div class="card-body p-0">
+                                <h3 class="card-title">Fastest Travel</h3>
+                                <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
+                                    elit. Incidunt, consectetur
+                                    amet.</p>
+                            </div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
-                    <div class="card p-5">
-                        <i class="fas fa-hiking"></i>
-                        <div class="card-body p-0">
-                            <h3 class="card-title">Adventures</h3>
-                            <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
-                                elit. Incidunt, consectetur
-                                amet.</p>
+                    <a href="#book">
+                        <div class="card-hover card p-5">
+                            <i class="fas fa-hiking"></i>
+                            <div class="card-body p-0">
+                                <h3 class="card-title">Adventures</h3>
+                                <p class="card-text  line-clamp line-2">Lorem ipsum dolor, adipisicing dolor sit amet
+                                    elit. Incidunt, consectetur
+                                    amet.</p>
+                            </div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -351,7 +358,7 @@
     <!-- section services end -->
 
     <!-- section gallery start -->
-    <section class="gallery" id="gallery">
+    <section class="gallery px-4 px-lg-0" id="gallery">
         <div class="container">
             <div class="main-text">
                 <h2><span>G</span>allery</h2>
@@ -369,7 +376,7 @@
                     <div class="card">
                         <img loading="lazy" src="./assets/img/g2.jpg" alt="">
                         <div class="card-img-overlay">
-                            <h3 class="card-title"><span>Christ the Redeemer Statue -</span> Brazil</h3>
+                            <h3 class="card-title"><span>Christ the Redeemer -</span> Brazil</h3>
                         </div>
                     </div>
                 </div>
@@ -403,7 +410,7 @@
                     <div class="card">
                         <img loading="lazy" src="./assets/img/g6.jpg" alt="">
                         <div class="card-img-overlay">
-                            <h3 class="card-title"><span>The Great Pyramid of Giza -</span> Egypt</h3>
+                            <h3 class="card-title"><span>Great Pyramid of Giza -</span> Egypt</h3>
                         </div>
                     </div>
                 </div>
@@ -414,7 +421,7 @@
     <!-- section gallery end -->
 
     <!-- section about start -->
-    <section class="about" id="about">
+    <section class="about px-4 px-lg-0" id="about">
         <div class="container">
             <div class="main-text">
                 <h2><span>About</span> Us</h2>
@@ -440,7 +447,7 @@
     <!-- section about end -->
 
     <!-- footer start -->
-    <footer id="footer">
+    <footer id="footer px-4 px-lg-0">
         <div class="container">
             <div class="main-text">
                 <a href="./index.html">

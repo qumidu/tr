@@ -211,7 +211,7 @@ a {
   margin-top: 5px;
 }
 .home .content a {
-  padding: 10px;
+  padding: 8px 15px;
   background: #fff;
   color: #000;
   letter-spacing: 2px;
@@ -299,7 +299,7 @@ a {
   margin-bottom: 5px;
 }
 .packages .card .card-body a {
-  padding: 10px;
+  padding: 7px 15px;
   border-radius: 5px;
   font-size: 1.6rem;
 }
@@ -314,6 +314,38 @@ a {
   background: var(--secondary-color);
   padding: 30px 0;
 }
+.card-hover {
+  position: relative;
+  &:after,
+  &:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    transition: 0.5s;
+    visibility: hidden;
+  }
+  &:after {
+    top: 0;
+    left: 0;
+    border-top: 10px solid var(--primary-color);
+    border-left: 10px solid var(--primary-color);
+  }
+  &:before {
+    bottom: 0;
+    right: 0;
+    border-bottom: 10px solid var(--primary-color);
+    border-right: 10px solid var(--primary-color);
+  }
+  &:hover {
+    &:before,
+    &:after {
+      width: 70px;
+      height: 70px;
+      visibility: visible;
+    }
+  }
+}
 .services .card {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border: none;
@@ -323,6 +355,10 @@ a {
   font-size: 8rem;
   text-align: center;
   color: var(--primary-color);
+  transition: 0.5s;
+}
+.services .card:hover i {
+  transform: scale(1.1);
 }
 .services .card .card-body {
   text-align: center;
@@ -331,10 +367,19 @@ a {
   font-weight: 600;
   font-size: 2.8rem;
   padding-top: 16px;
+  transition: 0.5s;
+  transition-delay: 0.1s;
+}
+.services .card:hover .card-body h3 {
+  transform: scale(1.1);
 }
 .services .card .card-body p {
   font-size: 1.6rem;
   padding-top: 8px;
+  transition: 0.5s;
+}
+.services .card:hover .card-body p {
+  transform: scale(0.98);
 }
 /* =================== section services end =================== */
 
