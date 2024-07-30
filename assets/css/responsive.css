@@ -1,0 +1,58 @@
+/* =================== responsive for tablet =================== */
+@media (max-width: 1024px) {
+  .home {
+    height: calc(100vh - 76.25px);
+    background-position: 89% 100%;
+  }
+  .home .content {
+    padding-top: 200px;
+  }
+  .book .card img {
+    object-position: 15% 100%;
+  }
+  .services .card .card-body h3 {
+    font-size: 1.7rem;
+  }
+  .services .card .card-body p {
+    font-size: 1.5rem;
+  }
+  .gallery .card-img-overlay .card-title span {
+    display: none;
+  }
+}
+
+/* =================== responsive for phones =================== */
+@media (max-width: 480px) {
+  .home {
+    background-position: 81% 100%;
+  }
+  .home .content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 100px;
+  }
+  .home .content h5 {
+    font-size: 2.5rem;
+  }
+  .home .content h1 {
+    font-size: 3.8rem;
+  }
+  .home .content p {
+    font-size: 1.6rem;
+    width: 255px;
+    margin-bottom: 20px;
+  }
+  .book .card img {
+    object-position: 10% 100%;
+  }
+  .services .card .card-body h3 {
+    font-size: 2.8rem;
+  }
+  .services .card .card-body p {
+    font-size: 1.6rem;
+  }
+  .gallery .card-img-overlay .card-title span {
+    display: inline-block;
+  }
+}
